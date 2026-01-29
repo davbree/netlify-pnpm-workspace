@@ -18,6 +18,7 @@ importers:
       react: ^18.0.0
       react-dom: ^18.0.0
       rollup: ^3.2.3
+      semver: ^7.7.3
     dependencies:
       '@astrojs/mdx': 0.11.4_rollup@3.2.3
       '@astrojs/react': 1.2.2_zsuu5tlpc3oizzo2izbxnpnayi
@@ -29,6 +30,7 @@ importers:
       astro: 1.5.1
       react: 18.2.0
       react-dom: 18.2.0_react@18.2.0
+      semver: 7.7.3
     devDependencies:
       rollup: 3.2.3
 
@@ -1242,7 +1244,7 @@ packages:
       rehype: 12.0.1
       resolve: 1.22.1
       rollup: 2.78.1
-      semver: 7.3.8
+      semver: 7.7.3
       shiki: 0.11.1
       sirv: 2.0.2
       slash: 4.0.0
@@ -2688,7 +2690,7 @@ packages:
       es6-error: 4.1.1
       matcher: 3.0.0
       roarr: 2.15.4
-      semver: 7.3.8
+      semver: 7.7.3
       serialize-error: 7.0.1
     dev: false
 
@@ -3302,6 +3304,7 @@ packages:
     engines: {node: '>=10'}
     dependencies:
       yallist: 4.0.0
+    dev: true
 
   /magic-string/0.25.9:
     resolution: {integrity: sha512-RmF0AsMzgt25qzqqLc1+MbHmhdx0ojF2Fvs4XnOqz2ZOBXzzkEwc/dJQZCYHAn7v1jbVOjAZfK8msRn4BxO4VQ==}
@@ -4655,6 +4658,13 @@ packages:
     hasBin: true
     dependencies:
       lru-cache: 6.0.0
+    dev: true
+
+  /semver/7.7.3:
+    resolution: {integrity: sha512-SdsKMrI9TdgjdweUSR9MweHA4EJ8YxHn8DFaDisvhVlUOe4BF1tLD7GAj0lIqWVl+dPb/rExr0Btby5loQm20Q==}
+    engines: {node: '>=10'}
+    hasBin: true
+    dev: false
 
   /serialize-error/7.0.1:
     resolution: {integrity: sha512-8I8TjW5KMOKsZQTvoxjuSIa7foAwPWGOts+6o7sgjz41/qMD9VQHEDxi6PBvK2l0MXUmqZyNpUK+T2tQaaElvw==}
@@ -5348,6 +5358,7 @@ packages:
 
   /yallist/4.0.0:
     resolution: {integrity: sha512-3wdGidZyq5PB084XLES5TpOSRA3wjXAlIWMhum2kRcv/41Sn2emQ0dycQW4uZXLejwKvg6EsvbdlVL+FYEct7A==}
+    dev: true
 
   /yaml/1.10.2:
     resolution: {integrity: sha512-r3vXyErRCYJ7wg28yvBY5VSoAF8ZvlcW9/BwUzEtUsjvX/DKs24dIkuwjtuprwJJHsbyUbLApepYTR1BN4uHrg==}
