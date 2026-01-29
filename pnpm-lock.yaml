@@ -15,6 +15,7 @@ importers:
       '@types/react': ^18.0.21
       '@types/react-dom': ^18.0.6
       astro: ^1.5.1
+      lodash: ^4.17.23
       react: ^18.0.0
       react-dom: ^18.0.0
       rollup: ^3.2.3
@@ -28,6 +29,7 @@ importers:
       '@types/react': 18.0.24
       '@types/react-dom': 18.0.6
       astro: 1.5.1
+      lodash: 4.17.23
       react: 18.2.0
       react-dom: 18.2.0_react@18.2.0
       semver: 7.7.3
@@ -3280,6 +3282,10 @@ packages:
   /lodash.merge/4.6.2:
     resolution: {integrity: sha512-0KpjqXRVvrYyCsX1swR/XTK0va6VQkQM6MNo7PqW77ByjAhoARA8EfrP1N4+KlKj8YS0ZUCtRT/YUuhyYDujIQ==}
     dev: true
+
+  /lodash/4.17.23:
+    resolution: {integrity: sha512-LgVTMpQtIopCi79SJeDiP0TfWi5CNEc/L/aRdTh3yIvmZXTnheWpKjSZhnvMl8iXbC1tFg9gdHHDMLoV7CnG+w==}
+    dev: false
 
   /log-symbols/5.1.0:
     resolution: {integrity: sha512-l0x2DvrW294C9uDCoQe1VSU4gf529FkSZ6leBl4TiqZH/e+0R7hSfHQBNut2mNygDgHwvYHfFLn6Oxb3VWj2rA==}
